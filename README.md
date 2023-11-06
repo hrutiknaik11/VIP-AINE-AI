@@ -14,12 +14,12 @@ To run the project, you will need access to Google Colab and the dataset. Here's
 
 	1.1 Download all the enron.tar files on your local machine
 		You can use the following link to access the dataset: http://nlp.cs.aueb.gr/software_and_datasets/Enron-Spam/index.html
-		We have used the .tar files of Enron-Spam in pre-processed form. There are total 6 .tar files. 
-	1.2  Open the following .ipynb file on google colab
+		We have used the .tar files of Enron-Spam in pre-processed form. There are total 6 .tar files. <br>
+	1.2  Open the following .ipynb file on google colab <br>
 		Link: https://colab.research.google.com/drive/1Vt71pnfdT977fJWKiXc4ChpJW8GWeOLc?usp=sharing
-	1.3 Upload the 6 enron.tar files to google colab.
-	1.3 Run each cell one after the other on colab and you will receive a email_dataset.csv file
-	1.4 Make sure to download this dataset to your local machine.
+	1.3 Upload the 6 enron.tar files to google colab. <br>
+	1.4 Run each cell one after the other on colab and you will receive a email_dataset.csv file <br>
+	1.5 Make sure to download this dataset to your local machine. <br>
 
 	OR
 
@@ -27,12 +27,12 @@ To run the project, you will need access to Google Colab and the dataset. Here's
 		Link: https://drive.google.com/file/d/1BXxLuwul-oxK2A0ujezi-KhEPGbwgv-L/view
 
 2. Spam Detection Google Colab
-	2.1 Go to Google Colab and sign in to your Google account if you're not already logged in.
-	2.2 Open the following .ipynb file on google colab 
-		Link: https://colab.research.google.com/drive/1t3nhLppJ-1VsrjFRUYiv7SjSjzUo8YBd#scrollTo=cJm0O8NngHck
-	2.3 Once you have opened the notebook uplaod your downloaded email_dataset.csv to the notebook
-	2.4 Now that you have the dataset in your Colab workspace, you can run the notebook. Here's how to do it:
-		Run all the cells by clicking "Runtime" in the top menu and selecting "Run All."
+	2.1 Go to Google Colab and sign in to your Google account if you're not already logged in. <br>
+	2.2 Open the following .ipynb file on google colab  <br>
+		Link: https://colab.research.google.com/drive/1t3nhLppJ-1VsrjFRUYiv7SjSjzUo8YBd#scrollTo=cJm0O8NngHck <br>
+	2.3 Once you have opened the notebook uplaod your downloaded email_dataset.csv to the notebook <br>
+	2.4 Now that you have the dataset in your Colab workspace, you can run the notebook. Here's how to do it: <br>
+		Run all the cells by clicking "Runtime" in the top menu and selecting "Run All." <br>
 
 3. Monitor the Execution
 The notebook will start running the code. You can monitor the execution in real-time and observe the results.
