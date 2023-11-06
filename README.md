@@ -26,7 +26,7 @@ To run the project, you will need access to Google Colab and the dataset. Here's
 	1.1 You can download the already unzipped, and merged dataset from our drive link:
 		Link: https://drive.google.com/file/d/1BXxLuwul-oxK2A0ujezi-KhEPGbwgv-L/view
 
-2. Spam Detection Google Colab
+2. Spam Detection Google Colab <br>
 	2.1 Go to Google Colab and sign in to your Google account if you're not already logged in. <br>
 	2.2 Open the following .ipynb file on google colab  <br>
 		Link: https://colab.research.google.com/drive/1t3nhLppJ-1VsrjFRUYiv7SjSjzUo8YBd#scrollTo=cJm0O8NngHck <br>
