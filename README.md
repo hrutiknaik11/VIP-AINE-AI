@@ -7,13 +7,13 @@ We provide a Google Colab notebook containing the code for this analysis.
 In this README, we'll guide you on how to run the Colab notebook and provide steps to download the dataset.
 
 ## Requirements
-pandas==1.3.3
-scikit-learn==0.24.2
-numpy==1.21.4
-keras==2.6.0
-nlpaug==1.1.4
-matplotlib==3.4.3
-tensorflow==2.6.0
+pandas==1.3.3 <br>
+scikit-learn==0.24.2 <br>
+numpy==1.21.4 <br>
+keras==2.6.0 <br>
+nlpaug==1.1.4 <br>
+matplotlib==3.4.3 <br>
+tensorflow==2.6.0 <br>
 
 ## Getting Started
 
