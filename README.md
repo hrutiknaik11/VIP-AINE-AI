@@ -66,3 +66,5 @@ Preprocessing and Augmentation Effects: The preprocessing steps (like removing p
 Model Performance and Reliability: The limitations and biases mentioned can lead to a decrease in model performance, especially in real-world scenarios where phishing attacks may not align perfectly with the dataset's characteristics.<br>
 False Positives/Negatives: Biases in the dataset could lead to higher false positives or negatives. For instance, if the dataset lacks variety, the model might fail to identify phishing emails that deviate from the dataset's norm.<br>
 Generalization and Adaptability: The model's ability to generalize and adapt to new, unseen phishing threats might be compromised due to the dataset's limitations. This could result in a need for frequent retraining or updates to maintain efficacy<br>
+
+We have independently written the code and in some parts we have taken help of our AI friend ChatGPT.
