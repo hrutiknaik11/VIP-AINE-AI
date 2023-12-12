@@ -55,14 +55,14 @@ Once the code execution is complete, you can interact with the results, review v
 ## Limitations
 
 1. Potential Limitations of the Dataset <br>
-Limited Diversity in Email Content: The dataset might not encompass the full spectrum of phishing emails, such as those with different linguistic styles, formatting, or emerging phishing techniques. This could lead to models being less effective against novel or less common phishing attempts.
-Time-Bound Data: If the dataset primarily consists of emails from a specific period, it may not capture the evolving nature of phishing attacks, rendering the model less adaptive to newer threats.
-Size and Depth of Dataset: The depth (detailed features of each email) and the size of the dataset could limit the model's ability to learn complex patterns effectively, potentially impacting its generalization capabilities.
+Limited Diversity in Email Content: The dataset might not encompass the full spectrum of phishing emails, such as those with different linguistic styles, formatting, or emerging phishing techniques. This could lead to models being less effective against novel or less common phishing attempts.<br>
+Time-Bound Data: If the dataset primarily consists of emails from a specific period, it may not capture the evolving nature of phishing attacks, rendering the model less adaptive to newer threats.<br>
+Size and Depth of Dataset: The depth (detailed features of each email) and the size of the dataset could limit the model's ability to learn complex patterns effectively, potentially impacting its generalization capabilities.<br>
 2. Biases in the Dataset  <br>
-Sampling Bias: If the dataset is sourced from a particular email provider or user demographic, it might not represent the wide variety of phishing attacks targeting different groups.
-Label Bias: The accuracy of the labels (phishing or not phishing) is crucial. If the labeling process was flawed or biased (e.g., some benign emails wrongly labeled as phishing), the models would learn from incorrect examples, leading to poorer performance in real-world scenarios.
-Preprocessing and Augmentation Effects: The preprocessing steps (like removing punctuation, numbers, hyperlinks) and text augmentation could inadvertently filter out or alter critical features of phishing emails, leading to a potential bias in how the models interpret and learn from the data.
+Sampling Bias: If the dataset is sourced from a particular email provider or user demographic, it might not represent the wide variety of phishing attacks targeting different groups.<br>
+Label Bias: The accuracy of the labels (phishing or not phishing) is crucial. If the labeling process was flawed or biased (e.g., some benign emails wrongly labeled as phishing), the models would learn from incorrect examples, leading to poorer performance in real-world scenarios.<br>
+Preprocessing and Augmentation Effects: The preprocessing steps (like removing punctuation, numbers, hyperlinks) and text augmentation could inadvertently filter out or alter critical features of phishing emails, leading to a potential bias in how the models interpret and learn from the data.<br>
 3. Impact of Limitations and Biases on Analysis Results  <br>
-Model Performance and Reliability: The limitations and biases mentioned can lead to a decrease in model performance, especially in real-world scenarios where phishing attacks may not align perfectly with the dataset's characteristics.
-False Positives/Negatives: Biases in the dataset could lead to higher false positives or negatives. For instance, if the dataset lacks variety, the model might fail to identify phishing emails that deviate from the dataset's norm.
-Generalization and Adaptability: The model's ability to generalize and adapt to new, unseen phishing threats might be compromised due to the dataset's limitations. This could result in a need for frequent retraining or updates to maintain efficacy
+Model Performance and Reliability: The limitations and biases mentioned can lead to a decrease in model performance, especially in real-world scenarios where phishing attacks may not align perfectly with the dataset's characteristics.<br>
+False Positives/Negatives: Biases in the dataset could lead to higher false positives or negatives. For instance, if the dataset lacks variety, the model might fail to identify phishing emails that deviate from the dataset's norm.<br>
+Generalization and Adaptability: The model's ability to generalize and adapt to new, unseen phishing threats might be compromised due to the dataset's limitations. This could result in a need for frequent retraining or updates to maintain efficacy<br>
