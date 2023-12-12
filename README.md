@@ -32,7 +32,7 @@ To run the project, you will need access to Google Colab and the dataset. Here's
 
 	OR
 
-	1.1 You can download the already unzipped, and merged dataset from our drive link:
+	1.1 You can download the already unzipped, and merged dataset from our drive link:<br>
 		Link: https://drive.google.com/file/d/1BXxLuwul-oxK2A0ujezi-KhEPGbwgv-L/view <br>
 
 	a. Dataset Description  <br>
