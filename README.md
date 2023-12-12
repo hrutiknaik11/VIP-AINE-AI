@@ -24,8 +24,8 @@ To run the project, you will need access to Google Colab and the dataset. Here's
 	1.1 Download all the enron.tar files on your local machine
 		You can use the following link to access the dataset: http://nlp.cs.aueb.gr/software_and_datasets/Enron-Spam/index.html
 		We have used the .tar files of Enron-Spam in pre-processed form. There are total 6 .tar files. <br>
-	1.2  Open the following .ipynb file on google colab <br>
-		Link: https://colab.research.google.com/drive/1Vt71pnfdT977fJWKiXc4ChpJW8GWeOLc?usp=sharing
+	1.2  Download and Open the following .ipynb file on google colab <br>
+		Link: https://drive.google.com/file/d/1ouuK0_KnpabCfmJFJwzs8yxlSGIOLm6c/view?usp=sharing
 	1.3 Upload the 6 enron.tar files to google colab. <br>
 	1.4 Run each cell one after the other on colab and you will receive a email_dataset.csv file <br>
 	1.5 Make sure to download this dataset to your local machine. <br>
