@@ -40,8 +40,8 @@ To run the project, you will need access to Google Colab and the dataset. Here's
 
 3. Spam Detection Google Colab <br>
 	2.1 Go to Google Colab and sign in to your Google account if you're not already logged in. <br>
-	2.2 Open the following .ipynb file on google colab  <br>
-		Link: https://colab.research.google.com/drive/1t3nhLppJ-1VsrjFRUYiv7SjSjzUo8YBd#scrollTo=cJm0O8NngHck <br>
+	2.2 Download the following .ipynb file and open it on google colab  <br>
+		Link: https://drive.google.com/file/d/1gM_kCI4Azh4TK4ybMWzeQWnvF5xEq-KN/view?usp=sharing <br>
 	2.3 Once you have opened the notebook uplaod your downloaded email_dataset.csv to the notebook <br>
 	2.4 Now that you have the dataset in your Colab workspace, you can run the notebook. Here's how to do it: <br>
 		Run all the cells by clicking "Runtime" in the top menu and selecting "Run All." <br>
