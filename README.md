@@ -35,7 +35,10 @@ To run the project, you will need access to Google Colab and the dataset. Here's
 	1.1 You can download the already unzipped, and merged dataset from our drive link:
 		Link: https://drive.google.com/file/d/1BXxLuwul-oxK2A0ujezi-KhEPGbwgv-L/view
 
-2. Spam Detection Google Colab <br>
+	a. Dataset Description
+		We have used the Enron Spam Dataset for our project which consists of around 30K data points on which training takes place.
+
+3. Spam Detection Google Colab <br>
 	2.1 Go to Google Colab and sign in to your Google account if you're not already logged in. <br>
 	2.2 Open the following .ipynb file on google colab  <br>
 		Link: https://colab.research.google.com/drive/1t3nhLppJ-1VsrjFRUYiv7SjSjzUo8YBd#scrollTo=cJm0O8NngHck <br>
@@ -43,8 +46,23 @@ To run the project, you will need access to Google Colab and the dataset. Here's
 	2.4 Now that you have the dataset in your Colab workspace, you can run the notebook. Here's how to do it: <br>
 		Run all the cells by clicking "Runtime" in the top menu and selecting "Run All." <br>
 
-3. Monitor the Execution
+4. Monitor the Execution
 The notebook will start running the code. You can monitor the execution in real-time and observe the results.
 
-4. Interact with the Results
+5. Interact with the Results
 Once the code execution is complete, you can interact with the results, review visualizations, and explore the analysis.
+
+## Limitations
+
+1. Potential Limitations of the Dataset
+Limited Diversity in Email Content: The dataset might not encompass the full spectrum of phishing emails, such as those with different linguistic styles, formatting, or emerging phishing techniques. This could lead to models being less effective against novel or less common phishing attempts.
+Time-Bound Data: If the dataset primarily consists of emails from a specific period, it may not capture the evolving nature of phishing attacks, rendering the model less adaptive to newer threats.
+Size and Depth of Dataset: The depth (detailed features of each email) and the size of the dataset could limit the model's ability to learn complex patterns effectively, potentially impacting its generalization capabilities.
+2. Biases in the Dataset
+Sampling Bias: If the dataset is sourced from a particular email provider or user demographic, it might not represent the wide variety of phishing attacks targeting different groups.
+Label Bias: The accuracy of the labels (phishing or not phishing) is crucial. If the labeling process was flawed or biased (e.g., some benign emails wrongly labeled as phishing), the models would learn from incorrect examples, leading to poorer performance in real-world scenarios.
+Preprocessing and Augmentation Effects: The preprocessing steps (like removing punctuation, numbers, hyperlinks) and text augmentation could inadvertently filter out or alter critical features of phishing emails, leading to a potential bias in how the models interpret and learn from the data.
+3. Impact of Limitations and Biases on Analysis Results
+Model Performance and Reliability: The limitations and biases mentioned can lead to a decrease in model performance, especially in real-world scenarios where phishing attacks may not align perfectly with the dataset's characteristics.
+False Positives/Negatives: Biases in the dataset could lead to higher false positives or negatives. For instance, if the dataset lacks variety, the model might fail to identify phishing emails that deviate from the dataset's norm.
+Generalization and Adaptability: The model's ability to generalize and adapt to new, unseen phishing threats might be compromised due to the dataset's limitations. This could result in a need for frequent retraining or updates to maintain efficacy
