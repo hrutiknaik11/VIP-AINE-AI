@@ -25,7 +25,7 @@ To run the project, you will need access to Google Colab and the dataset. Here's
 		You can use the following link to access the dataset: http://nlp.cs.aueb.gr/software_and_datasets/Enron-Spam/index.html
 		We have used the .tar files of Enron-Spam in pre-processed form. There are total 6 .tar files. <br>
 	1.2  Download and Open the following .ipynb file on google colab <br>
-		Link: https://drive.google.com/file/d/1ouuK0_KnpabCfmJFJwzs8yxlSGIOLm6c/view?usp=sharing
+		Link: https://drive.google.com/file/d/1ouuK0_KnpabCfmJFJwzs8yxlSGIOLm6c/view?usp=sharing <br>
 	1.3 Upload the 6 enron.tar files to google colab. <br>
 	1.4 Run each cell one after the other on colab and you will receive a email_dataset.csv file <br>
 	1.5 Make sure to download this dataset to your local machine. <br>
@@ -33,7 +33,7 @@ To run the project, you will need access to Google Colab and the dataset. Here's
 	OR
 
 	1.1 You can download the already unzipped, and merged dataset from our drive link:
-		Link: https://drive.google.com/file/d/1BXxLuwul-oxK2A0ujezi-KhEPGbwgv-L/view
+		Link: https://drive.google.com/file/d/1BXxLuwul-oxK2A0ujezi-KhEPGbwgv-L/view <br>
 
 	a. Dataset Description  <br>
 		We have used the Enron Spam Dataset for our project which consists of around 30K data points on which training takes place.
